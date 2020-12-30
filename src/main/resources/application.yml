@@ -9,9 +9,9 @@ spring:
 
 mybatis:
   mapper-locations:
-    - classpath:dao/*.xml
+    - classpath:dto/*.xml
 
 logging:
   level:
     root: info
-    com.macro.mall: debug
+    com.kenny: debug
